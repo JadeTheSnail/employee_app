@@ -1,0 +1,39 @@
+.Employee {
+    background-color: #5BCEFA;
+    border-radius: 5px;
+    border-color: black;
+    border-style: groove;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 175px;
+}
+
+.Employee:hover {
+    background-color: #F5A9B8;
+
+}
+
+#employeeName {
+    text-align: center;
+}
+
+.employeeInfo {
+    margin-left: 15px;
+    text-wrap:wrap;
+}
+
+#employeeContents {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
